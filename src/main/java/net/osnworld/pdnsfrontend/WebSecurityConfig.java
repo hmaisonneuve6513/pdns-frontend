@@ -1,4 +1,4 @@
-package net.osnworld.pdnsfrontend.Security;
+package net.osnworld.pdnsfrontend;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
