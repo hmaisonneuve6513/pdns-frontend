@@ -9,14 +9,12 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
-import org.springframework.
 
 
+@Configuration
+@EnableWebSecurity
 
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
-
-    @Configuration
-    @EnableWebSecurity
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
